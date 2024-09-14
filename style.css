@@ -1,0 +1,121 @@
+.h-100vh{
+    min-height: 100vh;
+}
+
+.b-red{
+    border: 2px solid red;
+}
+
+.homey{
+    background-image: url(fred-moon-fk50kc-DzSg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+
+
+.homepage{
+    
+}
+
+
+.homey:hover .homepage{
+    animation-name:homey-ani ;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.homey::before{
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(69, 11, 92, 0.509) !important;
+    
+}
+
+
+
+@keyframes homey-ani{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+
+
+ 
+
+
+
+}
+
+
+.card04:hover .card11{
+    
+    animation-name:card01 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.card03:hover .card11{
+    
+    animation-name:card01 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.card02:hover .card11{
+    
+    animation-name:card01 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.card01:hover .card11{
+    
+    animation-name:card01 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
+.A:hover .k{
+    animation-name:card01 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.B:hover .e{
+    animation-name:card01 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.C:hover .n{
+    animation-name:card01 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.D:hover .m{
+    animation-name:card01 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
+
+
+@keyframes card01{
+    0%{
+        transform:scale(1.1);
+        
+    }
+    100%{
+        transform: translateY(1);
+    }
+}
+
+
